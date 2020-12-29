@@ -18,9 +18,11 @@ function App() {
   return (
 
     <div id="color-fondo" >
-        <section className="container pl-4">
-      {/* <p> {dia} / {mes} / {ano} </p> */}
-        <h3>{people.length} birthday today</h3>
+      <section className="container pl-4">
+        <div className="titulo">
+          <h3> {dia} / {mes} / {ano}</h3>
+          <h3>You have {people.length} birthday today</h3>
+        </div>
         <List people={people} />
       </section>
     </div>

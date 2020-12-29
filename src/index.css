@@ -47,7 +47,11 @@ Variables
 Global Styles
 ===============
 */
-
+.titulo{
+  margin: 0 3rem;
+  display: flex;
+  justify-content: space-between;
+}
 *,
 ::after,
 ::before {
